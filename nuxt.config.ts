@@ -6,5 +6,7 @@ export default defineNuxtConfig({
   ],
   typescript: {
     shim: false
-  }
+  },
+  css: ['@/assets/styles/typography.css']
+
 })
