@@ -492,6 +492,32 @@
     defu "^6.1.2"
     naive-ui "^2.34.3"
 
+"@iconify-icons/logos@^1.2.24":
+  version "1.2.24"
+  resolved "https://registry.yarnpkg.com/@iconify-icons/logos/-/logos-1.2.24.tgz#b7e6b7c8abccac4345b423637430876b924dba82"
+  integrity sha512-ZQAUG2BobPyX7Xj98fAr9U1mODQzad6ntHB8TKbbfQpQI6P92MoGFd1Sm42Iwk6MYf7JHOnhg6c0k+0a2fM2jw==
+  dependencies:
+    "@iconify/types" "*"
+
+"@iconify-icons/uil@^1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@iconify-icons/uil/-/uil-1.2.3.tgz#a83e83baf7e0bc8499ac02281d7643f7b389a02c"
+  integrity sha512-+UlrTCKJ13k8MdZdBJUdJLwrys6r8/BG3MT+C09Vcqbzh5IKGxS9RdJ7G3XeTn+H2MrIJ/EHWCNNUANlDqLk6A==
+  dependencies:
+    "@iconify/types" "*"
+
+"@iconify/types@*", "@iconify/types@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@iconify/types/-/types-2.0.0.tgz#ab0e9ea681d6c8a1214f30cd741fe3a20cc57f57"
+  integrity sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==
+
+"@iconify/vue@^4.0.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@iconify/vue/-/vue-4.1.1.tgz#c143c2973a4990ba2b47b766f80a9bca97937305"
+  integrity sha512-RL85Bm/DAe8y6rT6pux7D2FJSiUEM/TPfyK7GrbAOfTSwrhvwJW+S5yijdGcmtXouA8MtuH9C7l4hiSE4mLMjg==
+  dependencies:
+    "@iconify/types" "^2.0.0"
+
 "@ioredis/commands@^1.1.1":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@ioredis/commands/-/commands-1.2.0.tgz#6d61b3097470af1fdbbe622795b8921d42018e11"
@@ -6287,6 +6313,11 @@ vdirs@^0.1.4, vdirs@^0.1.8:
   integrity sha512-H9V1zGRLQZg9b+GdMk8MXDN2Lva0zx72MPahDKc30v+DtwKjfyOSXWRIX4t2mhDubM1H09gPhWeth/BJWPHGUw==
   dependencies:
     evtd "^0.2.2"
+
+vfonts@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/vfonts/-/vfonts-0.0.3.tgz#999d66fecea18efee3f2b966c81101ae8ce01a29"
+  integrity sha512-nguyw8L6Un8eelg1vQ31vIU2ESxqid7EYmy8V+MDeMaHBqaRSkg3dTBToC1PR00D89UzS/SLkfYPnx0Wf23IQQ==
 
 vite-node@^0.29.8:
   version "0.29.8"
