@@ -1,5 +1,9 @@
+<script lang="ts" setup>
+const { download: downloadResume } = useDownloadFile('/federico_mameli_resume_2023.pdf')
+</script>
+
 <template>
-  <ui-button id="resume-btn" class="gap-2">
+  <ui-button id="resume-btn" class="hover:gap-2" @click="downloadResume">
     <app-icon icon="file-download" class="text-xl" />
     <span>Download Resume</span>
   </ui-button>
