@@ -3,8 +3,8 @@
 const contacts = [
   { label: 'Villaspeciosa (SU) Sardinia', href: null, icon: 'map' },
   {
-    label: 'federico_mameli@yahoo.it',
-    href: 'mailto:federico_mameli@yahoo.it',
+    label: 'federico_mameli@yahoo.com',
+    href: 'mailto:federico_mameli@yahoo.com',
     icon: 'envelope-alt'
   },
   { label: '+39 3488077577', href: 'tel:3488077577', icon: 'mobile-android' },
