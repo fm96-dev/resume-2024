@@ -1,5 +1,7 @@
 <script lang="ts" setup>
 
+useHead({ title: 'Federico Mameli | Full Stack Web Developer' })
+
 const contacts = [
   { label: 'Villaspeciosa (SU) Sardinia', href: null, icon: 'map' },
   {
