@@ -31,7 +31,7 @@ const contacts = [
             Federico Mameli
           </h1>
           <h2 class="text-3xl leading-none uppercase lg:text-5xl">
-            Front End Web Developer
+            Full Stack Web Developer
           </h2>
         </div>
       </section>
