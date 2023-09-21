@@ -49,8 +49,9 @@ const contacts = [
 
     <main class="flex flex-col items-center px-4 py-8 print:py-2">
       <app-section title="">
-        Passionate Web Developer with almost 5 years of experience in building Web Sites and Web Apps.<br>
-        I help companies to make their products reliable and scalable by following modern standards and best practices.
+        Experienced Web Developer with a strong passion for creating high-quality websites and web applications.<br>
+        Over five years of proven expertise in developing reliable and scalable digital solutions, consistently adhering to modern standards and best practices.<br>
+        Committed to delivering top-notch user experiences and driving project success through innovative web development
       </app-section>
 
       <app-section title="SKILLS">
