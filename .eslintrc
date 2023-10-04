@@ -13,6 +13,7 @@
         "./server/**/*.ts"
       ],
       "rules": {
+        "vue/no-v-html": "warn",
         "no-console": [
           "error",
           {

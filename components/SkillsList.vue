@@ -10,15 +10,15 @@ const skills = [
   { label: 'sass', icon: 'sass' },
   { label: 'tailwind', icon: 'tailwind' },
   { label: 'bootstrap', icon: 'bootstrap' },
-  { label: 'bulma', icon: 'bulma' },
   { label: 'node', icon: 'node' },
-  { label: 'mongo', icon: 'mongo' },
+  { label: 'php', icon: 'php' },
   { label: 'laravel', icon: 'laravel' },
   { label: 'mysql', icon: 'mysql' },
   { label: 'git', icon: 'git' },
   { label: 'github', icon: 'github' },
   { label: 'webpack', icon: 'webpack' },
   { label: 'vite', icon: 'vite' },
+  { label: 'vitest', icon: 'vitest' },
   { label: 'aws', icon: 'aws' },
   { label: 'docker', icon: 'docker' }
 ]

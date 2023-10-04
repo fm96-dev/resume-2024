@@ -16,7 +16,7 @@ import Ts from '@iconify-icons/logos/typescript-icon'
 import Node from '@iconify-icons/logos/nodejs-icon'
 import Laravel from '@iconify-icons/logos/laravel'
 import MySql from '@iconify-icons/logos/mysql-icon'
-import Mongo from '@iconify-icons/logos/mongodb-icon'
+import Php from '@iconify-icons/logos/php'
 import Docker from '@iconify-icons/logos/docker-icon'
 import Git from '@iconify-icons/logos/git-icon'
 import Tailwind from '@iconify-icons/logos/tailwindcss-icon'
@@ -24,9 +24,9 @@ import Nuxt from '@iconify-icons/logos/nuxt-icon'
 import Webpack from '@iconify-icons/logos/webpack'
 import Vite from '@iconify-icons/logos/vitejs'
 import Aws from '@iconify-icons/logos/aws'
-import Bulma from '@iconify-icons/logos/bulma'
 import Bootstrap from '@iconify-icons/logos/bootstrap'
 import Sass from '@iconify-icons/logos/sass'
+import Vitest from '@iconify-icons/logos/vitest'
 
 export default defineNuxtPlugin(({ vueApp }) => {
   vueApp.component('AppIcon', Icon)
@@ -46,8 +46,8 @@ export default defineNuxtPlugin(({ vueApp }) => {
   addIcon('vue', Vue)
   addIcon('css3', Css)
   addIcon('node', Node)
+  addIcon('php', Php)
   addIcon('laravel', Laravel)
-  addIcon('mongo', Mongo)
   addIcon('mysql', MySql)
   addIcon('docker', Docker)
   addIcon('git', Git)
@@ -55,7 +55,7 @@ export default defineNuxtPlugin(({ vueApp }) => {
   addIcon('nuxt', Nuxt)
   addIcon('webpack', Webpack)
   addIcon('vite', Vite)
-  addIcon('bulma', Bulma)
+  addIcon('vitest', Vitest)
   addIcon('bootstrap', Bootstrap)
   addIcon('aws', Aws)
   addIcon('sass', Sass)

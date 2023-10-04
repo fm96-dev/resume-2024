@@ -1,12 +1,20 @@
 <script lang="ts" setup>
-const { download: downloadResume } = useDownloadFile('/federico_mameli_resume_2023.pdf')
+import Button from 'primevue/button'
+const { locale } = useI18n()
+
+const resumeFilePath = computed<string>(() => `/federico_mameli_resume_2023_${locale.value}.pdf`)
+
+const { download: downloadResume } = useDownloadFile(resumeFilePath)
 </script>
 
 <template>
-  <ui-button id="resume-btn" class="hover:gap-2" @click="downloadResume">
+  <Button
+    id="resume-btn"
+    @click="() => downloadResume()"
+  >
     <app-icon icon="file-download" class="text-xl" />
-    <span>Download Resume</span>
-  </ui-button>
+    <span>{{ $t('downloadResume') }}</span>
+  </Button>
 </template>
 
 <style lang="postcss" scoped>

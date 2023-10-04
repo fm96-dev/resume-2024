@@ -27,4 +27,7 @@
   },
   // Auto-complete `.value` attribute when volar is installed
   "volar.autoCompleteRefs": true,
+  "i18n-ally.localesPaths": [
+    "lang"
+  ],
 }
