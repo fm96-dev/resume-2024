@@ -53,7 +53,7 @@ const contacts = [
 
     <main class="flex flex-col items-center px-4 py-8 print:py-2">
       <AppSection title="">
-        <p v-html="$t('summary')" />
+        <p v-md="$t('summary')" />
       </AppSection>
 
       <AppSection title="Skills" class="">

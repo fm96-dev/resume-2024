@@ -4,8 +4,10 @@ export default {
   education: 'Education',
   personalProjects: 'Personal Projects & Open Source Projects',
 
-  summary: `Experienced Web Developer with a strong passion for creating high-quality websites and web applications.<br>
-Over five years of proven expertise in developing reliable and scalable digital solutions, consistently adhering to modern standards and best practices.<br>
+  summary: `Experienced Web Developer with a strong passion for creating high-quality websites and web applications.
+
+Over five years of proven expertise in developing reliable and scalable digital solutions, consistently adhering to modern standards and best practices.
+
 Committed to delivering top-notch user experiences and driving project success through innovative web development.`,
 
   experienceEvents: {
@@ -17,12 +19,11 @@ Committed to delivering top-notch user experiences and driving project success t
     },
     1: {
       time: 'JUNE 2018 - JANUARY 2022',
-      description: `<ul class="list-disc list-inside">
-    <li>Creating and maintaining Single Page Applications and Landing Pages aimed at lead generation</li>
-    <li>Create a toolkit based on Vue to reduce the landing page's development time which consists of a custom landing pages components, a js core library to handle common features and vue-cli/vite vue template projects</li>
-    <li> Training and management of the development team</li>
-    </ul>`
-
+      description: [
+        '- Creating and maintaining Single Page Applications and Landing Pages aimed at lead generation',
+        '- Create a toolkit based on Vue to reduce the landing page\'s development time which consists of a custom landing pages components, a js core library to handle common features and vue-cli/vite vue template projects',
+        '- Training and management of the development team'
+      ].join('\n')
     }
   },
 
@@ -36,13 +37,14 @@ Committed to delivering top-notch user experiences and driving project success t
 
   educationEvents: {
     0: {
-      description: `The topics addressed are:
-      <ul class="mt-1 list-disc list-inside">
-        <li>Foundations of Informatics.</li>
-        <li>Systems and Networks.</li>
-        <li>Object oriented programming.</li>
-        <li>Web programming.</li>
-      </ul>`
+      description: [
+        'The topics addressed are:',
+        '',
+        '- Foundations of Informatics',
+        '- Systems and Networks',
+        '- Object oriented programming',
+        '- Web programming'
+      ].join('\n')
     }
   }
 

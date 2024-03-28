@@ -40,7 +40,7 @@ const events = computed<TimelineEvent[]>(() => [
   <Timeline :value="events">
     <template #content="{item}">
       <experience-timeline-item v-bind="item">
-        <div v-html="item.description" />
+        <div v-md="item.description" />
       </experience-timeline-item>
     </template>
   </Timeline>
