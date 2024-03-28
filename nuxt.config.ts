@@ -3,7 +3,10 @@ export default defineNuxtConfig({
   typescript: {
     shim: false
   },
-  css: ['@/assets/styles/typography.css'],
+  css: [
+    '@/assets/styles/typography.css',
+    '@/assets/styles/base.css'
+  ],
 
   build: {
     transpile: ['primevue']
