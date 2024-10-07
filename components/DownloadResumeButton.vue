@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import Button from 'primevue/button'
-const { locale } = useI18n()
+const { locale, t } = useI18n()
 
 const resumeFilePath = computed<string>(() => `/federico_mameli_resume_2023_${locale.value}.pdf`)
 
@@ -13,7 +13,7 @@ const { download: downloadResume } = useDownloadFile(resumeFilePath)
     @click="() => downloadResume()"
   >
     <app-icon icon="file-download" class="text-xl" />
-    <span>{{ $t('downloadResume') }}</span>
+    <span>{{ t('downloadResume') }}</span>
   </Button>
 </template>
 
