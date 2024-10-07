@@ -13,7 +13,7 @@ export default {
 
   experienceEvents: {
     0: {
-      time: 'FEBBRAIO 2022 - ATTUALE',
+      time: 'FEBBRAIO 2022 - LUGLIO 2024',
       description: `Creazione e manutenzione di applicazioni web realizzate con tecnologie quali: PHP, Laravel, MySQL, JavaScript, TailwindCSS e Vue.
       Deploy tramite AWS (Amazon Web Services) e il servizio Laravel Vapor.`
     },

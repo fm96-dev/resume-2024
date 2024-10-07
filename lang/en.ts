@@ -12,7 +12,7 @@ Committed to delivering top-notch user experiences and driving project success t
 
   experienceEvents: {
     0: {
-      time: 'FEBRUARY 2022 - CURRENT',
+      time: 'FEBRUARY 2022 - JULY 2024',
       description: `Developing new projects and maintaining already created projects with Vue on the frontend and Laravel and MySql on the backend. <br>
      Used AWS, AWS Amplify and Laravel Vapor for deployments on new projects; AWS Elastic Beanstalk for the older ones.`
 
