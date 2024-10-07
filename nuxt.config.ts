@@ -1,24 +1,27 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  typescript: {
-    shim: false
-  },
-  css: [
-    '@/assets/styles/typography.css',
-    '@/assets/styles/base.css'
-  ],
-
-  build: {
-    transpile: ['primevue']
-  },
+  compatibilityDate: '2024-10-07',
 
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/i18n'
   ],
 
+  css: [
+    '@/assets/styles/typography.css',
+    '@/assets/styles/base.css'
+  ],
+
+  devtools: {
+    enabled: true
+  },
+
   i18n: {
     vueI18n: './config/i18n.config.ts'
+  },
+
+  build: {
+    transpile: ['primevue']
   }
 
 })
