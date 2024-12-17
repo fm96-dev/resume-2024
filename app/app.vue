@@ -1,5 +1,19 @@
 <script lang="ts" setup>
-useHead({ title: "Federico Mameli | Full Stack Web Developer" });
+const { locale } = useI18n();
+
+useHead({
+  title: "Federico Mameli | Full Stack Web Developer",
+  htmlAttrs: {
+    lang: () => locale.value,
+  },
+  meta: [
+    {
+      name: "description",
+      content:
+        "Full Stack Web Developer with 5+ years of experience in building websites and web applications.",
+    },
+  ],
+});
 
 const contacts = [
   { label: "Villaspeciosa (SU) Sardegna", href: null, icon: "uil:map" },
