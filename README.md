@@ -1,30 +1,25 @@
-# Nuxt 3 Minimal Starter
-
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# Federico Mameli - Resume
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3949216f-58a0-40be-b632-4b8c83afe1d1/deploy-status)](https://app.netlify.com/sites/federico-mameli-resume/deploys)
 
+This is the project of my online resume, built with nuxt.js.
+
 ## Setup
 
-Make sure to install the dependencies:
+This project is built using devcontainers and pnpm as package manager.
 
-```bash
-# yarn
-yarn install
+If you use devcontainers, run `pnpm dev:install` to install dependencies,
+otherwise use normal `pnpm install`.
 
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
-```
+When using devcontainers ensure you have a docker volume named `pnpm-store`,
+this module will be used as pnpm-store folder to share pacakges between devcontainer projects.
 
 ## Development Server
 
 Start the development server on http://localhost:3000
 
 ```bash
-npm run dev
+pnpm run dev
 ```
 
 ## Production
@@ -32,13 +27,13 @@ npm run dev
 Build the application for production:
 
 ```bash
-npm run build
+pnpm run build
 ```
 
 Locally preview production build:
 
 ```bash
-npm run preview
+pnpm run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
