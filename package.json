@@ -3,13 +3,12 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "dev:install": "pnpm --store-dir /home/node/.pnpm-store install",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
-    "typecheck": "nuxt typecheck",
-    "start": "NODE_ENV=production node .output/server/index.mjs"
+    "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
     "@iconify-icons/logos": "^1.2.36",
