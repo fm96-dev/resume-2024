@@ -1,10 +1,10 @@
 <script lang="ts" setup>
 export interface Props {
-  label?: string
-  link: string
+  label?: string;
+  link: string;
 }
 
-defineProps<Props>()
+defineProps<Props>();
 </script>
 
 <template>
@@ -13,7 +13,7 @@ defineProps<Props>()
     :href="link"
     target="blank"
   >
-    <app-icon icon="github" />
+    <Icon name="uil:github" />
     <slot>{{ label }}</slot>
   </a>
 </template>

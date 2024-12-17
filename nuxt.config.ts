@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     compatibilityVersion: 4,
   },
 
-  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/i18n", "@nuxt/eslint"],
+  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/i18n", "@nuxt/eslint", "@nuxt/icon"],
 
   css: ["@/assets/styles/typography.css", "@/assets/styles/base.css"],
 

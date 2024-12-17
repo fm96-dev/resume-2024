@@ -1,31 +1,37 @@
 <script lang="ts" setup>
-import { technologiesColorsClasses } from '~/utils/style'
+import { technologiesColorsClasses } from "~/utils/style";
 
 interface Props {
-  title: string,
-  company?: string,
-  time?: string,
-  technologies: string[],
-  description?: string,
-  github?: string
+  title: string;
+  company?: string;
+  time?: string;
+  technologies: string[];
+  description?: string;
+  github?: string;
 }
 
-defineProps<Props>()
+defineProps<Props>();
 
-const getTechnologyColorClass = (technology: string) => technologiesColorsClasses.get(technology)
+const getTechnologyColorClass = (technology: string) =>
+  technologiesColorsClasses.get(technology);
 </script>
 
 <template>
   <div class="mb-5">
     <h3 class="flex items-center gap-2 text-3xl">
       {{ title }}
-      <a v-if="github" :href="github" target="blank" class="text-xl transition-all duration-200 ease-out hover:text-2xl hover:text-blue-600">
-        <app-icon icon="github" />
+      <a
+        v-if="github"
+        :href="github"
+        target="blank"
+        class="text-xl transition-all duration-200 ease-out hover:text-2xl hover:text-blue-600"
+      >
+        <Icon name="uil:github" />
       </a>
     </h3>
 
-    <div v-if="company" class="flex items-center gap-1 mb-1 ">
-      <app-icon icon="building" />
+    <div v-if="company" class="flex items-center gap-1 mb-1">
+      <Icon name="uil:building" />
       <strong class="font-semibold">
         {{ company }}
       </strong>

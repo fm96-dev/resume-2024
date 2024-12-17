@@ -1,27 +1,26 @@
 <script lang="ts" setup>
-
 const skills = [
-  { label: 'html 5', icon: 'html5' },
-  { label: 'css 3', icon: 'css3' },
-  { label: 'javascript', icon: 'javascript' },
-  { label: 'typescript', icon: 'typescript' },
-  { label: 'vue', icon: 'vue' },
-  { label: 'nuxt', icon: 'nuxt' },
-  { label: 'sass', icon: 'sass' },
-  { label: 'tailwind', icon: 'tailwind' },
-  { label: 'bootstrap', icon: 'bootstrap' },
-  { label: 'node', icon: 'node' },
-  { label: 'php', icon: 'php' },
-  { label: 'laravel', icon: 'laravel' },
-  { label: 'mysql', icon: 'mysql' },
-  { label: 'git', icon: 'git' },
-  { label: 'github', icon: 'github' },
-  { label: 'webpack', icon: 'webpack' },
-  { label: 'vite', icon: 'vite' },
-  { label: 'vitest', icon: 'vitest' },
-  { label: 'aws', icon: 'aws' },
-  { label: 'docker', icon: 'docker' }
-]
+  { label: "html 5", icon: "logos:html-5" },
+  { label: "css 3", icon: "logos:css-3" },
+  { label: "javascript", icon: "logos:javascript" },
+  { label: "typescript", icon: "logos:typescript-icon" },
+  { label: "vue", icon: "logos:vue" },
+  { label: "nuxt", icon: "logos:nuxt-icon" },
+  { label: "sass", icon: "logos:sass" },
+  { label: "tailwind", icon: "logos:tailwindcss-icon" },
+  { label: "bootstrap", icon: "logos:bootstrap" },
+  { label: "node", icon: "logos:nodejs-icon" },
+  { label: "php", icon: "logos:php" },
+  { label: "laravel", icon: "logos:laravel" },
+  { label: "mysql", icon: "logos:mysql-icon" },
+  { label: "git", icon: "logos:git-icon" },
+  { label: "github", icon: "logos:github-icon" },
+  { label: "webpack", icon: "logos:webpack" },
+  { label: "vite", icon: "logos:vitejs" },
+  { label: "vitest", icon: "logos:vitest" },
+  { label: "aws", icon: "logos:aws" },
+  { label: "docker", icon: "logos:docker-icon" },
+];
 </script>
 
 <template>
@@ -33,8 +32,8 @@ const skills = [
       :key="i"
       class="flex flex-col items-center p-3 delay-75 rounded shadow"
     >
-      <app-icon :icon="skill.icon" class="text-[2em]" />
-      <div class="mt-2 text-xs font-semibold uppercase ">
+      <Icon :name="skill.icon" class="text-[2em]" />
+      <div class="mt-2 text-xs font-semibold uppercase">
         {{ skill.label }}
       </div>
     </div>

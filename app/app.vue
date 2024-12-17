@@ -2,22 +2,26 @@
 useHead({ title: "Federico Mameli | Full Stack Web Developer" });
 
 const contacts = [
-  { label: "Villaspeciosa (SU) Sardegna", href: null, icon: "map" },
+  { label: "Villaspeciosa (SU) Sardegna", href: null, icon: "uil:map" },
   {
     label: "federico_mameli@yahoo.com",
     href: "mailto:federico_mameli@yahoo.com",
-    icon: "envelope-alt",
+    icon: "uil:envelope-alt",
   },
-  { label: "+39 3488077577", href: "tel:3488077577", icon: "mobile-android" },
+  {
+    label: "+39 3488077577",
+    href: "tel:3488077577",
+    icon: "uil:mobile-android",
+  },
   {
     label: "Linkedin",
     href: "https://www.linkedin.com/in/federicomamelidev",
-    icon: "linkedin",
+    icon: "uil:linkedin",
   },
   {
     label: "Github",
     href: "https://github.com/fech-dev",
-    icon: "github",
+    icon: "uil:github",
   },
 ];
 
