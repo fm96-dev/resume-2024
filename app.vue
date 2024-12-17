@@ -3,7 +3,7 @@
 useHead({ title: 'Federico Mameli | Full Stack Web Developer' })
 
 const contacts = [
-  { label: 'Villaspeciosa (SU) Sardinia', href: null, icon: 'map' },
+  { label: 'Villaspeciosa (SU) Sardegna', href: null, icon: 'map' },
   {
     label: 'federico_mameli@yahoo.com',
     href: 'mailto:federico_mameli@yahoo.com',
