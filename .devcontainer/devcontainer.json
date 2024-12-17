@@ -4,13 +4,26 @@
 	"name": "Node.js & TypeScript",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+	"mounts": [
+        "source=pnpm-store,target=/home/node/.pnpm-store,type=volume"
+    ],
+    "postCreateCommand": "sudo chown -R node:node /home/node/.pnpm-store",
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"bradlc.vscode-tailwindcss",
-				"Vue.volar",
-				"eamodio.gitlens",
-				"pflannery.vscode-versionlens"
+				"dbaeumer.vscode-eslint",
+                "esbenp.prettier-vscode",
+                "Vue.volar",
+                "vitest.explorer",
+                "antfu.iconify",
+                "bradlc.vscode-tailwindcss",
+                "SamaTech.postcss-vue",
+                "praburangki.nuxt-snippets",
+                "geekabe.iconify-search",
+                "eamodio.gitlens",
+                "pflannery.vscode-versionlens",
+                "vivaxy.vscode-conventional-commits",
+                "YoavBls.pretty-ts-errors"
 			]
 		}
 	}
