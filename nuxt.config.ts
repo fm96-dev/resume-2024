@@ -2,10 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-10-07',
 
-  modules: [
-    '@nuxtjs/tailwindcss',
-    '@nuxtjs/i18n'
-  ],
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n', '@nuxt/eslint'],
 
   css: [
     '@/assets/styles/typography.css',
