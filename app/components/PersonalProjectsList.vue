@@ -29,7 +29,7 @@
 
       <ul class="ml-4 list-disc list-inside">
         <li>
-          <b class="font-semibold">Vue Sheppherd</b>
+          <b class="font-semibold">Vue Shepherd</b>
           {{ $t("projects.vueShepherd") }}
 
           <GithubLink
