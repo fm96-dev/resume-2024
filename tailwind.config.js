@@ -1,9 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './index.html',
-    './components/*.{vue,js,ts,jsx,tsx}',
-    './utils/*.{vue,js,ts,jsx,tsx}',
+    '**/components/*.{vue,js,ts,jsx,tsx}',
+    '**/utils/*.{vue,js,ts,jsx,tsx}',
     './node_modules/primevue/**/*.{vue,js,ts,jsx,tsx}'
   ],
 
