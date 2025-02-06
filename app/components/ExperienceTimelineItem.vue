@@ -41,7 +41,7 @@ const getTechnologyColorClass = (technology: string) =>
       {{ time }}
     </div>
 
-    <div class="flex flex-wrap gap-2 my-2">
+    <div class="flex flex-wrap gap-2 my-2 max-w-[45rem]">
       <UiBadge
         v-for="(technology, i) of technologies"
         :key="i"
