@@ -77,7 +77,7 @@ const currentYear = new Date().getFullYear();
       </AppSection>
 
       <AppSection title="Skills" class="">
-        <skills-list />
+        <SkillsList />
       </AppSection>
 
       <AppSection :title="$t('experience')">

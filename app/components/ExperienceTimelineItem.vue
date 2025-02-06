@@ -42,14 +42,14 @@ const getTechnologyColorClass = (technology: string) =>
     </div>
 
     <div class="flex flex-wrap gap-2 my-2">
-      <ui-badge
+      <UiBadge
         v-for="(technology, i) of technologies"
         :key="i"
         class="text-slate-100"
         :class="getTechnologyColorClass(technology)"
       >
         {{ technology }}
-      </ui-badge>
+      </UiBadge>
     </div>
 
     <div class="mt-2">
