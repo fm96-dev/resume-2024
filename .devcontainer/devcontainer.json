@@ -1,45 +1,48 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/typescript-node
 {
-	"name": "Node.js & TypeScript",
-	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
-	"mounts": [
-        "source=pnpm-store,target=/home/node/.pnpm-store,type=volume"
-    ],
-    "postCreateCommand": "sudo chown -R node:node /home/node/.pnpm-store",
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"dbaeumer.vscode-eslint",
-                "esbenp.prettier-vscode",
-                "Vue.volar",
-                "vitest.explorer",
-                "antfu.iconify",
-                "bradlc.vscode-tailwindcss",
-                "SamaTech.postcss-vue",
-                "praburangki.nuxt-snippets",
-                "geekabe.iconify-search",
-                "eamodio.gitlens",
-                "pflannery.vscode-versionlens",
-                "vivaxy.vscode-conventional-commits",
-                "YoavBls.pretty-ts-errors"
-			]
-		}
-	}
+  "name": "Node.js & TypeScript",
+  // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+  "features": {
+    "ghcr.io/devcontainers-extra/features/pnpm": {
+      "version": "latest"
+    }
+  },
+  "mounts": ["source=pnpm-store,target=/home/node/.pnpm-store,type=volume"],
+  "postCreateCommand": "pnpm config set store-dir /home/node/.pnpm-store && sudo chown -R node:node /home/node/.pnpm-store",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "Vue.volar",
+        "vitest.explorer",
+        "antfu.iconify",
+        "bradlc.vscode-tailwindcss",
+        "SamaTech.postcss-vue",
+        "praburangki.nuxt-snippets",
+        "geekabe.iconify-search",
+        "eamodio.gitlens",
+        "pflannery.vscode-versionlens",
+        "vivaxy.vscode-conventional-commits",
+        "YoavBls.pretty-ts-errors"
+      ]
+    }
+  }
 
-	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
+  // Features to add to the dev container. More info: https://containers.dev/features.
+  // "features": {},
 
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
+  // Use 'forwardPorts' to make a list of ports inside the container available locally.
+  // "forwardPorts": [],
 
-	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "yarn install",
+  // Use 'postCreateCommand' to run commands after the container is created.
+  // "postCreateCommand": "yarn install",
 
-	// Configure tool-specific properties.
-	// "customizations": {},
+  // Configure tool-specific properties.
+  // "customizations": {},
 
-	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	// "remoteUser": "root"
+  // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+  // "remoteUser": "root"
 }
