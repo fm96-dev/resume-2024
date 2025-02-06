@@ -24,8 +24,8 @@ const contacts = [
   },
   {
     label: "+39 3488077577",
-    href: "tel:3488077577",
-    icon: "uil:mobile-android",
+    href: "https://wa.me/3488077577",
+    icon: "uil:whatsapp-alt",
   },
   {
     label: "Linkedin",
