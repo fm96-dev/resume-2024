@@ -1,6 +1,6 @@
-import Tailwind from 'primevue/passthrough/tailwind'
+import Tailwind from "primevue/passthrough/tailwind";
 
 export default {
   unstyled: true,
-  pt: Tailwind
-}
+  pt: Tailwind,
+};

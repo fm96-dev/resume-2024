@@ -3,7 +3,7 @@ import Button from "primevue/button";
 const { locale, t } = useI18n();
 
 const resumeFilePath = computed<string>(
-  () => `/Federico-Mameli_Full-Stack-Web-Developer_resume-${locale.value}.pdf`
+  () => `/Federico-Mameli_Full-Stack-Web-Developer_resume-${locale.value}.pdf`,
 );
 
 const { download: downloadResume } = useDownloadFile(resumeFilePath);
