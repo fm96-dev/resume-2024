@@ -17,7 +17,7 @@ Committed to delivering top-notch user experiences and driving project success t
         `- Development and maintenance of web applications using PHP, Laravel, MySQL, Vue, and TypeScript.`,
         `- Implementation of new features, code refactoring, integration with third-party services, and writing automated tests.`,
         `- Management of infrastructure and deployment on AWS, primarily using Elastic Beanstalk, RDS, and Laravel Vapor.`,
-        `- Workflow managed with Docker (DevContainer for development), Git/GitHub, CI/CD, and Linux.`,
+        `- Workflow managed with Docker (DevContainer for development), Git/GitHub, GitHub Actions, and Linux.`,
       ].join("\n"),
     },
     1: {

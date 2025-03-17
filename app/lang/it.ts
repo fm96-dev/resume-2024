@@ -18,7 +18,7 @@ export default {
         `- Sviluppo e manutenzione di applicazioni web utilizzando PHP, Laravel, MySQL, Vue e TypeScript.`,
         `- Implementazione di nuove feature, refactoring di codice, integrazione con servizi terzi e scrittura di test automatici.`,
         `- Gestione dell’infrastruttura e deploy su AWS, con utilizzo principale di Elastic Beanstalk, RDS e Laravel Vapor.`,
-        `- Workflow gestito con Docker (DevContainer per sviluppo), Git/GitHub, CI/CD e Linux.`,
+        `- Workflow gestito con Docker (DevContainer per sviluppo), Git/GitHub, GitHub Actions e Linux.`,
       ].join("\n"),
     },
     1: {
