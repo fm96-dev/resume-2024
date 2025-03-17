@@ -20,7 +20,7 @@ export default defineNuxtConfig({
   },
 
   i18n: {
-    vueI18n: "./config/i18n.config.ts",
+    vueI18n: "~~/config/i18n.config.ts",
   },
 
   build: {
