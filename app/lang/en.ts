@@ -4,11 +4,10 @@ export default {
   education: "Education",
   personalProjects: "Personal Projects & Open Source Projects",
 
-  summary: `Experienced Web Developer with a strong passion for creating high-quality websites and web applications.
-
-Over five years of proven expertise in developing reliable and scalable digital solutions, consistently adhering to modern standards and best practices.
-
-Committed to delivering top-notch user experiences and driving project success through innovative web development.`,
+  summary: `Full Stack Developer with experience in building high-performance and scalable applications. <br />
+  I enjoy tackling new challenges, finding efficient solutions, and continuously improving development processes. <br /> 
+  I work with great attention to detail and strive to create intuitive, high-quality products. <br />
+  I am proactive, curious, and always focused on improving my work and contributing to the growth of the projects I take part in`,
 
   experienceEvents: {
     0: {

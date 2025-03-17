@@ -4,12 +4,10 @@ export default {
   education: "Educazione",
   personalProjects: "Progetti personali e Open Source",
 
-  summary: `Web Developer con una forte passione per la creazione di siti web e web applications di alta qualità.
-
-  Oltre cinque anni di esperienza nello sviluppo di soluzioni digitali affidabili e scalabili,
-  aderendo costantemente agli standard moderni e alle best practices.
-
-  Impegnato a fornire esperienze utente di qualità e a promuovere il successo dei progetti attraverso lo sviluppo web innovativo.`,
+  summary: `Full Stack Developer con esperienza nello sviluppo di applicazioni performanti e scalabili.<br />
+  Mi piace affrontare nuove sfide, trovare soluzioni efficienti e migliorare costantemente i processi di sviluppo.<br />
+  Lavoro con attenzione al dettaglio e mi impegno a creare prodotti intuitivi e di alta qualità. <br />
+   Sono una persona proattiva, curiosa e orientata al miglioramento del mio lavoro e alla crescita dei progetti a cui partecipo.`,
 
   experienceEvents: {
     0: {
