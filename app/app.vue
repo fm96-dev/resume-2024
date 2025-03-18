@@ -34,7 +34,7 @@ const contacts = [
   },
   {
     label: "Github",
-    href: "https://github.com/fech-dev",
+    href: "https://github.com/fm96-dev",
     icon: "uil:github",
   },
 ];

@@ -6,7 +6,7 @@
       {{ $t("projects.vueInsane") }}
 
       <GithubLink
-        link="https://github.com/fech-dev/vue-insane"
+        link="https://github.com/fm96-dev/vue-insane"
         class="print:hidden"
       >
         vue-insane
@@ -17,7 +17,7 @@
       {{ $t("projects.jsFactory") }}
 
       <GithubLink
-        link="https://github.com/fech-dev/js-factory"
+        link="https://github.com/fm96-dev/js-factory"
         class="print:hidden"
       >
         js-factory
